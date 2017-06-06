@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="To Do List">
+  <meta name="keywords" content="Pioter SWAPI">
+  <meta name="author" content="Piotr Strzelecki">
+  <title>SWAPI</title>
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <h1>SWAPI!!!</h1>
+  <p>Aplikacja służy do losowania informacji z uniwersum Star Wars. Wybierz kategorię i losuj informacje! :)
+  </p>
+  <form method="GET" action="#" id="myForm">
+    <fieldset>
+      <legend>Wybierz kategorię:</legend>
+      <input type="radio" name="kategoria" value="People" checked/>Ludzie<br/>
+      <input type="radio" name="kategoria" value="Films" />Filmy<br/>
+      <input type="radio" name="kategoria" value="Starships" />Statki<br/>
+      <input type="radio" name="kategoria" value="Vehicles" />Pojazdy<br/>
+      <input type="radio" name="kategoria" value="Species" />Gatunki<br/>
+      <input type="radio" name="kategoria" value="Planets" />Planety<br/>
+      <input type="submit" value="Losuj!" id="submit"/>
+    </fieldset>
+  </form>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
